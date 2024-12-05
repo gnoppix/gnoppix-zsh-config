@@ -1,0 +1,23 @@
+pkgbase = gnoppix-zsh-config
+	pkgdesc = Zsh configuration for Gnoppix 
+	pkgver = 1.0.0
+	pkgrel = 3
+	url = https://github.com/gnoppix/gnoppix-zsh-config
+	arch = any
+	license = GPL-1.0-only
+	makedepends = git
+	depends = fzf
+	depends = oh-my-zsh-git
+	depends = pkgfile
+	depends = powerline-fonts
+	depends = vim
+	depends = zsh
+	depends = zsh-autosuggestions
+	depends = zsh-completions
+	depends = zsh-history-substring-search
+	depends = zsh-syntax-highlighting
+	depends = zsh-theme-powerlevel10k
+	source = git+https://github.com/gnoppix/gnoppix-zsh-config.git#commit=2d809c457f78b935a4fb78719f7c7abac26b7caa
+	md5sums = 764285832950473259b519024d76c924
+
+pkgname = gnoppix-zsh-config
